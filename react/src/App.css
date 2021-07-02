@@ -1,0 +1,30 @@
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.cover-main {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.container {
+  max-width: 30%;
+}
+.cover-content {
+  background-color: whitesmoke;
+  height: max-content;
+}
+
+#formdashboard {
+  width: 70%;
+  font-size: large;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 90%;
+  }
+}
